@@ -3,7 +3,7 @@ set -e #exit on command fail
 set -u #exit on undefined variable use
 set -x #trace what gets executed
 
-if [ "${#}" -ne 1 ]; then
+if [ "$#" -ne 1 ]; then
 	echo "Wrong number of arguments!"
 	exit 1
 fi
