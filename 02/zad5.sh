@@ -12,22 +12,27 @@ elif [ "$#" -eq 1 ]; then
 	if [ ! -d "${1}" ]; then
 		echo "Directory \"${1}\" does not exist!"
 	fi
-	extension=none
+	extension=.none
 else
 	echo "Wrong number of arguments!"
 	exit 1
 fi
 
-if [ "${extension}" == none ]; then
+rm -f ${1}/merged${extension}
+bulk_file="${1}/merged${extension}"
+touch "${bulk_file}"
+
+if [ "${extension}" == .none ]; then
 	files_list=`ls --ignore='*.*' ${1}`
 	for file in ${files_list}; do
-		echo "${file}"
+		echo "File: ${file}" >> "${bulk_file}"
+		cat "${file}" >> "${bulk_file}"
+		echo '' >> "${bulk_file}"
 	done
 else
 	for file in "${1}/"*${extension}; do
-		echo "${file}"
+		echo "File: ${file}" >> "${bulk_file}"
+		cat "${file}" >> "${bulk_file}"
+		echo '' >> "${bulk_file}"
 	done
 fi
-
-
-

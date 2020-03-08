@@ -1,0 +1,3 @@
+/home/vanilla/Desktop/so2_lab/02/zad2.sh
+/home/vanilla/Desktop/so2_lab/02/zad1.sh
+/home/vanilla/Desktop/so2_lab/02/zad3.sh
