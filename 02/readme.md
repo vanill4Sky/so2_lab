@@ -240,7 +240,7 @@ Listowanie  plików  z  zadanego  katalogu  (parametr  wywołania  skryptu),  wr
 	
 	depth=1
 	function list_files {
-		dir_content=`ls "${1}"`
+		local dir_content=`ls "${1}"`
 		
 		for file in ${dir_content}; do
 			local file_path="${1}/${file}"
