@@ -19,7 +19,6 @@ while(start < end):
         opening_token_pos + len(opening_token) : closing_token_pos]
     try:
         script_file_data = open(script_filename, "r").read()
-        script_file_data = script_file_data.replace("\n", "\n\t")
     except:
         script_file_data = "in progress"
     
