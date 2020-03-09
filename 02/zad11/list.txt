@@ -1,0 +1,6 @@
+dir_1
+dir_3
+file_2
+file_3.txt
+file_4
+file_5.sh
