@@ -12,4 +12,4 @@ fi
 python3 update_readme.py
 git add *
 git commit -m "${1}"
-git pull
+git push
