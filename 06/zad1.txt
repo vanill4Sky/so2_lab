@@ -1,0 +1,25 @@
+a) 
+^[A-Z][a-z]+\s([A-Z][a-z]+)?\s*[A-Z][a-z]+(-[A-Z][a-z]+)?$
+Anna Maria Kowalska-Nowak
+Adam Nowak
+Adam Konrad Nowak
+
+b)
+^\d{2}-\d{3} [-A-Za-z ĄĆĘŁŃÓŚŹŻąćęłńóśźż]+$
+20-300 Opoczno
+20-300 Zielona Góra
+30-800 Bielsko-Biała
+30-400 Oblęgór
+2a-090
+
+c)
+^[a-zA-Z!#$%&'*+\/=?^`{|}~][a-zA-Z\d!#$%&'*+\-\/=?^_`{|}~.]+@([a-z]+.[
+a11as#_.as@student.pwr.pl
+jan_b@buziaczek.op.pl
+
+d)
+^\s*(typedef|extern|static|auto|register)*\s*([_a-zA-Z]\w*\s*[*]*)\s*\w*\([\w,\s*\.]*\);$
+void fun(int, *int);
+extern int** fun(int, **int);
+test* test(test** sx, ...);
+
