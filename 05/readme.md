@@ -1,6 +1,6 @@
-### Laboratorium 4 - Potokowe przetwarzanie strumieni tekstowych (grep, awk)
+### Laboratorium 5 - Potokowe przetwarzanie strumieni tekstowych (grep, awk)
 
-- [Laboratorium 4 - Potokowe przetwarzanie strumieni tekstowych (grep, awk)](#laboratorium-4---potokowe-przetwarzanie-strumieni-tekstowych-grep-awk)
+- [Laboratorium 5 - Potokowe przetwarzanie strumieni tekstowych (grep, awk)](#laboratorium-5---potokowe-przetwarzanie-strumieni-tekstowych-grep-awk)
   - [Zad](#zad)
 
 #### Zad

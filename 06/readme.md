@@ -1,10 +1,10 @@
-### Laboratorium 4 - Potokowe przetwarzanie strumieni tekstowych (grep, awk)
+### Laboratorium 6 - Wyrażanie regularne w bashu
 
-- [Laboratorium 4 - Potokowe przetwarzanie strumieni tekstowych (grep, awk)](#laboratorium-4---potokowe-przetwarzanie-strumieni-tekstowych-grep-awk)
-  - [Zad 1](#zad-1)
+- [Laboratorium 6 - Wyrażanie regularne w bashu](#laboratorium-6---wyra%c5%bcanie-regularne-w-bashu)
+  - [Zad 1s](#zad-1s)
   - [Zad 2](#zad-2)
 
-#### Zad 1
+#### Zad 1s
 Proszę zapisać wyrażenia regularne, aby wykryć czy dowolny ciąg pasuje do poniższych problemów:
 1. Imię i nazwisko - proszę uwzględnić: drugie imię, nazwisko z myślnikiem. Czyli wzorzec powinien wykryć zarówno: "Adam Nowak" i "Anna Maria Kowalska-Nowak". Niewymagane są polskie znaki.
 ```

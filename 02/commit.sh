@@ -10,6 +10,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 python3 update_readme.py
-git add *
+git add .
 git commit -m "${1}"
 git push
