@@ -11,15 +11,15 @@ W ramach ćwiczenia z Pythona, będą Państwo pracować na tej samej liście za
 
 Laboratorium składa się z trzech zadań z listy dostępnej tutaj: http://www.zsk.iiar.pwr.edu.pl/zsk/repository/dydaktyka/so/so_lab1.pdf
 
-Zad 1 (numer_indeksu+2)%15+1
-Zad 2 (numer_indeksu+ostatnia_cyfra_indeksu)%15+1
+Zad 1 (numer_indeksu+2)%15+1  
+Zad 2 (numer_indeksu+ostatnia_cyfra_indeksu)%15+1  
 Zad 3 (numer_indeksu+przedostatnia_cyfra_indeksu)%15+1
 
 W przypadku powtórzenia zadania należy wziąć następne w kolejności.
 
-Czyli np. dla osoby o numerze indeksu 222120:
-zad1: (222120+2)%15+1 = skrypt nr 3
-zad2: (222120+0)%15+1 = skrypt nr 1
+Czyli np. dla osoby o numerze indeksu 222120:  
+zad1: (222120+2)%15+1 = skrypt nr 3  
+zad2: (222120+0)%15+1 = skrypt nr 1  
 zad3: (222120+2)%15+1 = skrypt nr 3(powtórzenie!), czyli następne niepowtórzone zadanie to skrypt nr 4
 
 Uwagi:
